@@ -1,0 +1,29 @@
+# Compilação e dependências locais
+target/
+.m2/
+*.class
+
+# Banco H2 e arquivos temporários
+data/
+*.mv.db
+*.trace.db
+*.lock.db
+*.log
+*.tmp
+.verificacao/
+
+# Configurações locais dos editores
+.vscode/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+.factorypath
+
+# Segredos e arquivos do sistema
+.env
+.env.*
+!.env.example
+Thumbs.db
+.DS_Store
